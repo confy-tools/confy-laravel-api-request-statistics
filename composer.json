@@ -1,0 +1,16 @@
+{
+    "name": "root/laravel-api-request-statistics\n",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "jibi",
+            "email": "jibi343@gmail.com"
+        },
+        {
+            "name": "sanith",
+            "email": "sanithaish@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
