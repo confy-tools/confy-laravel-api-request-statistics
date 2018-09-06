@@ -10,7 +10,8 @@ class RequestStatisticsController extends Controller
 {
     //
     public function add($a, $b){
-    	echo $a + $b;
+        $result = $a + $b;
+        return view('confyans::report', compact('result'));
     }
 
     public function subtract($a, $b){
