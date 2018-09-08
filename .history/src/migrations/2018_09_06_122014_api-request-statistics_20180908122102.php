@@ -16,7 +16,7 @@ class ApiRequestStatistics extends Migration
         Schema::create('request_statistics', function (Blueprint $table) {
             $table->increments('id');
             $table->string('route');
-            $table->string('url');
+            $table->string('request_url');
             $table->longText('header');
             $table->longText('request_payload')->nullable();
             $table->longText('server')->nullable();

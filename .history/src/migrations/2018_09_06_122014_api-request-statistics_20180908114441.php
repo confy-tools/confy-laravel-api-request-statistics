@@ -15,14 +15,10 @@ class ApiRequestStatistics extends Migration
     {
         Schema::create('request_statistics', function (Blueprint $table) {
             $table->increments('id');
-            $table->string('route');
-            $table->string('url');
-            $table->longText('header');
-            $table->longText('request_payload')->nullable();
-            $table->longText('server')->nullable();
-            $table->longText('response')->nullable();
-            $table->double('duration',8,2)->nullable();
-            $table->enum('type', ['api', 'http']);
+            $table->string('name');
+            $table->string('email')->unique();
+            $table->string('password');
+            $table->rememberToken();
             $table->timestamps();
         });
     }

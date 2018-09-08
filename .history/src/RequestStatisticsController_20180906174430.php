@@ -9,9 +9,9 @@ use App\Http\Controllers\Controller;
 class RequestStatisticsController extends Controller
 {
     //
-    public function dashboard(){
-        $result =null;
-        return view('confyans::dashboard', compact('result'));
+    public function add($a, $b){
+        $result = $a + $b;
+        return view('confyans::report', compact('result'));
     }
 
     public function subtract($a, $b){

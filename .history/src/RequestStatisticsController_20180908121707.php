@@ -9,8 +9,7 @@ use App\Http\Controllers\Controller;
 class RequestStatisticsController extends Controller
 {
     //
-    public function dashboard(){
-        $result =null;
+    public function dashboard(){       
         return view('confyans::dashboard', compact('result'));
     }
 

@@ -4,7 +4,7 @@
    <title>Confyans Request Statistics</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Bootstrap -->
-    <link href="{{asset('confyans/bootstrap/css/bootstrap.min.css')}}" rel="stylesheet">
+    <link href="{{asset('confyans/css/bootstrap.min.css')}}" rel="stylesheet">
     <!-- styles -->
     <link href="{{asset('confyans/css/styles.css')}}" rel="stylesheet">
 

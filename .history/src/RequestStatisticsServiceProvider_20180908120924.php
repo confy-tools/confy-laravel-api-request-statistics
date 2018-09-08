@@ -13,11 +13,11 @@ class RequestStatisticsServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        include __DIR__.'/routes.php';      
-        $this->publishes([
-            __DIR__.'/assets' => public_path('confyans'),
-            __DIR__.'/config/confyans.php' => config_path('confyans.php'), ]
-        , 'public');
+        include __DIR__.'/routes.php';
+        // $this->publishes([
+        //     __DIR__.'/config/confyans.php' => config_path('confyans.php'),
+        // ]);
+        $this->publishes([__DIR__.'/assets' => public_path('confyans'),__DIR__.'/config/confyans.php' => config_path('confyans.php'), ], 'public');
     }
 
 

@@ -4,7 +4,7 @@
    <title>Confyans Request Statistics</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Bootstrap -->
-    <link href="{{asset('confyans/bootstrap/css/bootstrap.min.css')}}" rel="stylesheet">
+    <link href="{{asset('confyans/css/bootstrap.min.css')}}" rel="stylesheet">
     <!-- styles -->
     <link href="{{asset('confyans/css/styles.css')}}" rel="stylesheet">
 
@@ -244,7 +244,7 @@
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://code.jquery.com/jquery.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="{{asset('confyans/bootstrap/js/bootstrap.min.js')}}"></script>
-    <script src="{{asset('confyans/js/custom.js')}}"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="js/custom.js"></script>
   </body>
 </html>

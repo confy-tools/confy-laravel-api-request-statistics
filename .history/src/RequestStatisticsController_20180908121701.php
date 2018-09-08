@@ -10,7 +10,7 @@ class RequestStatisticsController extends Controller
 {
     //
     public function dashboard(){
-        $result =null;
+        $result = $a + $b;
         return view('confyans::dashboard', compact('result'));
     }
 
