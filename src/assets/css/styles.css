@@ -650,3 +650,20 @@ body {
       border-radius:10px;
    }  
 }
+.selected td{
+  background: #1E88E5!important;
+  color:#fff;
+}
+.selectedDetails{
+  background: #90CAF9!important;
+}
+.selectedDetails pre{
+  background:#fff;
+}
+
+.error td{
+  background: #F8BBD0;
+}
+.logo h3{
+  color: #fff;
+}
