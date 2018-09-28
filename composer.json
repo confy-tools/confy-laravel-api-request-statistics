@@ -1,5 +1,5 @@
 {
-    "name": "laravel-api-request-statistics",
+    "name": "confy/laravel-api-request-statistics",
     "license": "MIT",
     "authors": [
         {
